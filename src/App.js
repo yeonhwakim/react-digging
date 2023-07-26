@@ -1,5 +1,11 @@
+import ReactElement from "./components/ReactElement";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <ReactElement />
+    </div>
+  );
 }
 
 export default App;
